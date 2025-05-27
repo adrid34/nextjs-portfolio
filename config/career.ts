@@ -136,7 +136,7 @@ export const careerExperiences: CareerExperienceInterface[] = [
       "HIPAA",
     ],
     companyUrl: "https://www.avcoconsulting.com",
-    logo: "/logos/avco.png",
+    logo: "/logos/avco.jpg",
   },
   {
     id: "mobileprogramming",

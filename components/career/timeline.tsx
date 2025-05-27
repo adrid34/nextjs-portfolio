@@ -53,7 +53,7 @@ const TimelineItem: React.FC<TimelineItemProps> = ({
                   src={experience.logo}
                   alt={experience.company}
                   fill
-                  className="object-contain p-2"
+                  className="object-cover"
                 />
               </div>
             ) : (
