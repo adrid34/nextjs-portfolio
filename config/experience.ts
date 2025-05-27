@@ -297,7 +297,7 @@ export const Experiences: ExperienceInterface[] = [
       "Forged an immersive 3D Portfolio Card utilizing the prowess of Three.js and Blender, where art and technology converge in an interactive masterpiece.",
     websiteLink: "https://card.adrid34.xyz/",
     githubLink: "https://github.com/adrid34/3d-portfolio-card",
-    techStack: ["React", "Javascript", "HTML 5", "CSS 3"],
+    techStack: ["React", "Javascript", "HTML5", "CSS3"],
     startDate: new Date("2022-03-01"),
     endDate: new Date("2022-07-01"),
     companyLogoImg: "/experience/card/logo.png",
@@ -350,7 +350,7 @@ export const Experiences: ExperienceInterface[] = [
     shortDescription:
       "Created a dashboard project using React and Tailwind CSS, focusing on UI design and routing implementation.",
     websiteLink: "https://adrian-madrid-34.xyz/",
-    techStack: ["React", "Tailwind CSS", "Google Auth"],
+    techStack: ["React", "TailwindCSS", "Google Auth"],
     startDate: new Date("2023-01-01"),
     endDate: new Date("2023-02-15"),
     companyLogoImg: "/experience/cirql/logo.png",

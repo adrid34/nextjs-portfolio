@@ -1,6 +1,7 @@
 export type ValidSkills =
   | "Next.js"
   | "React"
+  | "React Native"
   | "React.js"
   | "Vue.js"
   | "Redux"
@@ -75,6 +76,7 @@ export type ValidSkills =
   | "JMeter"
   | "HIPAA"
   | "Vuetify"
+  | "express.js"
   | "Mongoose";
 
 export type ValidCategory =
