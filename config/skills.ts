@@ -9,154 +9,206 @@ export interface skillsInterface {
 
 export const skillsUnsorted: skillsInterface[] = [
   {
+    name: "JavaScript",
+    description: "Dynamic programming language used for web development.",
+    rating: 5,
+    icon: Icons.javascript,
+  },
+  {
+    name: "TypeScript",
+    description: "Typed superset of JavaScript that compiles to plain JavaScript.",
+    rating: 5,
+    icon: Icons.typescript,
+  },
+  {
     name: "Next.js",
-    description:
-      "Effortlessly build dynamic apps with routing, layouts, loading UI, and API routes.",
+    description: "React framework with hybrid static & server rendering.",
     rating: 5,
     icon: Icons.nextjs,
   },
   {
     name: "React",
-    description:
-      "Craft interactive user interfaces using components, state, props, and virtual DOM.",
+    description: "JavaScript library for building user interfaces.",
     rating: 5,
     icon: Icons.react,
   },
   {
-    name: "GraphQL",
-    description:
-      "Fetch data precisely with a powerful query language for APIs and runtime execution.",
+    name: "Redux",
+    description: "State management library for JavaScript apps.",
     rating: 4,
-    icon: Icons.graphql,
+    icon: Icons.redux,
   },
-  {
-    name: "Nest.js",
-    description:
-      "Create scalable and modular applications with a progressive Node.js framework.",
-    rating: 4,
-    icon: Icons.nestjs,
-  },
-  {
-    name: "express.js",
-    description:
-      "Build web applications and APIs quickly using a fast, unopinionated Node.js framework.",
-    rating: 5,
-    icon: Icons.express,
-  },
+
   {
     name: "Node.js",
-    description:
-      "Run JavaScript on the server side, enabling dynamic and responsive applications.",
+    description: "JavaScript runtime built on Chrome's V8 engine.",
     rating: 5,
     icon: Icons.nodejs,
   },
   {
-    name: "MongoDB",
-    description:
-      "Store and retrieve data seamlessly with a flexible and scalable NoSQL database.",
-    rating: 5,
-    icon: Icons.mongodb,
-  },
-  {
-    name: "Typescript",
-    description:
-      "Enhance JavaScript with static types, making code more understandable and reliable.",
-    rating: 5,
-    icon: Icons.typescript,
-  },
-  {
-    name: "Javascript",
-    description:
-      "Create interactive and dynamic web experiences with the versatile scripting language.",
-    rating: 5,
-    icon: Icons.javascript,
-  },
-  {
-    name: "HTML 5",
-    description:
-      "Structure web content beautifully with the latest version of HyperText Markup Language.",
+    name: "Express",
+    description: "Fast, minimalist web framework for Node.js.",
     rating: 4,
+    icon: Icons.express,
+  },
+  {
+    name: "NestJS",
+    description: "Progressive Node.js framework for building efficient, scalable apps.",
+    rating: 4,
+    icon: Icons.nestjs,
+  },
+  {
+    name: "HTML5",
+    description: "Standard markup language for creating web pages.",
+    rating: 5,
     icon: Icons.html5,
   },
   {
-    name: "CSS 3",
-    description:
-      "Style web pages creatively with the latest iteration of Cascading Style Sheets.",
-    rating: 4,
+    name: "CSS3",
+    description: "Style sheet language used for describing the look of a document.",
+    rating: 5,
     icon: Icons.css3,
   },
   {
-    name: "React Native",
-    description:
-      "Develop cross-platform mobile apps using React for consistent and engaging experiences.",
-    rating: 4,
-    icon: Icons.react,
-  },
-  {
-    name: "Angular",
-    description:
-      "Build dynamic web apps with a TypeScript-based open-source framework by Google.",
-    rating: 3,
-    icon: Icons.angular,
-  },
-  {
-    name: "Redux",
-    description:
-      "Manage app state effectively using a predictable and centralized state container.",
-    rating: 4,
-    icon: Icons.redux,
-  },
-  {
-    name: "Socket.io",
-    description:
-      "Enable real-time, bidirectional communication between clients and servers effortlessly.",
-    rating: 3,
-    icon: Icons.socketio,
-  },
-  {
-    name: "Material UI",
-    description:
-      "Create stunning and responsive UIs with a popular React UI framework.",
-    rating: 4,
-    icon: Icons.mui,
-  },
-
-  {
     name: "Tailwind CSS",
-    description:
-      "Design beautiful, modern websites faster with a utility-first CSS framework.",
+    description: "Utility-first CSS framework for rapid UI development.",
     rating: 5,
     icon: Icons.tailwindcss,
   },
   {
-    name: "AWS",
-    description:
-      "Utilize Amazon Web Services to build and deploy scalable, reliable, and secure applications.",
-    rating: 3,
-    icon: Icons.amazonaws,
-  },
-  {
     name: "Bootstrap",
-    description:
-      "Quickly create responsive and appealing web designs using a popular CSS framework.",
-    rating: 2,
+    description: "Front-end framework for developing responsive web applications.",
+    rating: 4,
     icon: Icons.bootstrap,
   },
   {
+    name: "MUI",
+    description: "React UI framework with pre-built components.",
+    rating: 4,
+    icon: Icons.mui,
+  },
+  {
+    name: "MongoDB",
+    description: "NoSQL database known for its flexibility and scalability.",
+    rating: 4,
+    icon: Icons.mongodb,
+  },
+  {
     name: "MySQL",
-    description:
-      "Manage and organize relational databases efficiently for data-driven applications.",
-    rating: 2,
+    description: "Relational database management system.",
+    rating: 4,
     icon: Icons.mysql,
   },
   {
+    name: "GraphQL",
+    description: "Query language for APIs and a runtime for fulfilling those queries.",
+    rating: 4,
+    icon: Icons.graphql,
+  },
+  {
+    name: "Socket.IO",
+    description: "Enables real-time, bidirectional and event-based communication.",
+    rating: 4,
+    icon: Icons.socketio,
+  },
+  {
     name: "Netlify",
-    description:
-      "Manage and organize relational databases efficiently for data-driven applications.",
+    description: "Platform for deploying and hosting web applications.",
     rating: 4,
     icon: Icons.netlify,
   },
+  {
+    name: "Amazon AWS",
+    description: "Cloud computing platform offering scalable solutions.",
+    rating: 4,
+    icon: Icons.amazonaws,
+  },
+  {
+    name: "Microsoft Azure",
+    description: "Cloud computing service for building, testing, and managing apps.",
+    rating: 3,
+    icon: Icons.azure,
+  },
+  {
+    name: "Python",
+    description: "Interpreted, high-level programming language for general-purpose programming.",
+    rating: 4,
+    icon: Icons.python,
+  },
+  {
+    name: "Django",
+    description: "High-level Python web framework that encourages rapid development.",
+    rating: 3,
+    icon: Icons.django,
+  },
+  {
+    name: "PHP",
+    description: "Popular general-purpose scripting language suited for web development.",
+    rating: 3,
+    icon: Icons.php,
+  },
+  {
+    name: "Laravel",
+    description: "PHP framework for building modern web applications.",
+    rating: 3,
+    icon: Icons.laravel,
+  },
+  {
+    name: "Redis",
+    description: "In-memory data structure store, used as a database, cache, and message broker.",
+    rating: 4,
+    icon: Icons.redis,
+  },
+  {
+    name: "Postman",
+    description: "API platform for building and testing APIs.",
+    rating: 5,
+    icon: Icons.postman,
+  },
+  {
+    name: "JWT",
+    description: "Compact URL-safe means of representing claims to be transferred between two parties.",
+    rating: 4,
+    icon: Icons.jwt,
+  },
+  {
+    name: "Stripe",
+    description: "Online payment processing for internet businesses.",
+    rating: 4,
+    icon: Icons.stripe,
+  },
+  {
+    name: "Apache JMeter",
+    description: "Open-source load testing tool to analyze and measure performance.",
+    rating: 3,
+    icon: Icons.jmeter,
+  },
+  {
+    name: "Jest",
+    description: "Delightful JavaScript testing framework by Facebook.",
+    rating: 4,
+    icon: Icons.jest,
+  },
+  {
+    name: "Selenium",
+    description: "Open-source tool for automating web browsers.",
+    rating: 3,
+    icon: Icons.selenium,
+  },
+  {
+    name: "PHPUnit",
+    description: "Unit testing framework for PHP.",
+    rating: 3,
+    icon: Icons.php,
+  },
+  {
+    name: "Angular",
+    description: "TypeScript-based web application framework.",
+    rating: 3,
+    icon: Icons.angular,
+  },
 ];
+
 
 export const skills = skillsUnsorted
   .slice()
