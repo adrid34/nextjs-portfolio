@@ -1,0 +1,42 @@
+export const siteConfig = {
+  name: "Adrian Madrid | Developer Portfolio Template",
+  authorName: "Adrian Madrid",
+  username: "adrianmadrid",
+  description:
+    "Adrian Madrid's portfolio - A modern, responsive Next.js portfolio for developers. This open-source template can be customized to showcase your own skills, projects, and professional experience.",
+  url: "https://adrian-madrid-34.xyz",
+  links: {
+    twitter: "https://x.com/A_Madrid920304",
+    github: "https://github.com/adrid34",
+  },
+  iconIco:
+    "https://adrian-madrid-34.xyz/logo.png",
+  logoIcon:
+    "https://adrian-madrid-34.xyz/logo.png",
+  ogImage: "https://adrian-madrid-34.xyz/adrian-img.jpg",
+  keywords: [
+    "Adrian Madrid",
+    "Full Stack Developer",
+    "Web Developer Portfolio",
+    "Next.js portfolio template",
+    "React portfolio template",
+    "Developer portfolio template",
+    "Portfolio website template",
+    "Next.js template",
+    "Modern portfolio website",
+    "Frontend developer portfolio",
+    "Full stack developer portfolio",
+    "Open source portfolio template",
+    "Web developer portfolio template",
+    "Responsive portfolio template",
+    "React.js portfolio",
+    "Tailwind CSS portfolio",
+    "Developer showcase template",
+    "Free portfolio template",
+    "Next.js 13 template",
+    "Shadcn UI template",
+    "Career timeline template",
+    "Portfolio with dark mode",
+    "GitHub portfolio template",
+  ],
+};
