@@ -4,16 +4,16 @@ export const siteConfig = {
   username: "adrianmadrid",
   description:
     "Adrian Madrid's portfolio - A modern, responsive Next.js portfolio for developers. This open-source template can be customized to showcase your own skills, projects, and professional experience.",
-  url: "https://adrian-madrid-34.xyz",
+  url: "https://adrianmadrid.vercel.app",
   links: {
     twitter: "https://x.com/A_Madrid920304",
     github: "https://github.com/adrid34",
   },
   iconIco:
-    "https://adrian-madrid-34.xyz/logo.png",
+    "https://adrianmadrid.vercel.app/logo.png",
   logoIcon:
-    "https://adrian-madrid-34.xyz/logo.png",
-  ogImage: "https://adrian-madrid-34.xyz/adrian-img.jpg",
+    "https://adrianmadrid.vercel.app/logo.png",
+  ogImage: "https://adrianmadrid.vercel.app/adrian-img.jpg",
   keywords: [
     "Adrian Madrid",
     "Full Stack Developer",

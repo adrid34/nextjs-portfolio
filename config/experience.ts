@@ -349,7 +349,7 @@ export const Experiences: ExperienceInterface[] = [
     category: ["Web Dev", "Frontend", "UI/UX"],
     shortDescription:
       "Created a dashboard project using React and Tailwind CSS, focusing on UI design and routing implementation.",
-    websiteLink: "https://adrian-madrid-34.xyz/",
+    websiteLink: "https://adrianmadrid.vercel.app/",
     techStack: ["React", "TailwindCSS", "Google Auth"],
     startDate: new Date("2023-01-01"),
     endDate: new Date("2023-02-15"),

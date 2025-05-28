@@ -1,6 +1,6 @@
 # Portfolio Website Navigation Overview
 
-This document outlines the navigation structure of the portfolio website [https://adrian-madrid-34.xyz/](https://adrian-madrid-34.xyz/), detailing each page and its primary sections to facilitate understanding and interaction.
+This document outlines the navigation structure of the portfolio website [https://adrianmadrid.vercel.app/](https://adrianmadrid.vercel.app/), detailing each page and its primary sections to facilitate understanding and interaction.
 
 ---
 
@@ -8,10 +8,10 @@ This document outlines the navigation structure of the portfolio website [https:
 
 The website's main navigation menu is accessible from all pages and includes the following links:
 
-1. **Home**: [https://adrian-madrid-34.xyz/](https://adrian-madrid-34.xyz/)
-2. **Skills**: [https://adrian-madrid-34.xyz/skills](https://adrian-madrid-34.xyz/skills)
-3. **Experience**: [https://adrian-madrid-34.xyz/experience](https://adrian-madrid-34.xyz/experience)
-5. **Contact**: [https://adrian-madrid-34.xyz/contact](https://adrian-madrid-34.xyz/contact)
+1. **Home**: [https://adrianmadrid.vercel.app/](https://adrianmadrid.vercel.app/)
+2. **Skills**: [https://adrianmadrid.vercel.app/skills](https://adrianmadrid.vercel.app/skills)
+3. **Experience**: [https://adrianmadrid.vercel.app/experience](https://adrianmadrid.vercel.app/experience)
+5. **Contact**: [https://adrianmadrid.vercel.app/contact](https://adrianmadrid.vercel.app/contact)
 
 ---
 
@@ -19,7 +19,7 @@ The website's main navigation menu is accessible from all pages and includes the
 
 ### 1. Home
 
-**URL:** [https://adrian-madrid-34.xyz/](https://adrian-madrid-34.xyz/)
+**URL:** [https://adrianmadrid.vercel.app/](https://adrianmadrid.vercel.app/)
 
 **Sections:**
 
@@ -29,7 +29,7 @@ The website's main navigation menu is accessible from all pages and includes the
 
 ### 2. Skills
 
-**URL:** [https://adrian-madrid-34.xyz/skills](https://adrian-madrid-34.xyz/skills)
+**URL:** [https://adrianmadrid.vercel.app/skills](https://adrianmadrid.vercel.app/skills)
 
 **Sections:**
 
@@ -37,7 +37,7 @@ The website's main navigation menu is accessible from all pages and includes the
 
 ### 3. Experience
 
-**URL:** [https://adrian-madrid-34.xyz/experience](https://adrian-madrid-34.xyz/experience)
+**URL:** [https://adrianmadrid.vercel.app/experience](https://adrianmadrid.vercel.app/experience)
 
 **Sections:**
 
@@ -45,7 +45,7 @@ The website's main navigation menu is accessible from all pages and includes the
 
 ### 5. Contact
 
-**URL:** [https://adrian-madrid-34.xyz/contact](https://adrian-madrid-34.xyz/contact)
+**URL:** [https://adrianmadrid.vercel.app/contact](https://adrianmadrid.vercel.app/contact)
 
 **Sections:**
 
