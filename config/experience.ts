@@ -29,140 +29,98 @@ export interface ExperienceInterface {
 
 export const Experiences: ExperienceInterface[] = [
   {
-    id: "built-design",
-    companyName: "Builtdesign",
+    id: "wayfair-ecommerce-ui",
+    companyName: "Wayfair",
     type: "Professional",
-    category: ["Web Dev", "Full Stack", "UI/UX"],
+    category: ["Frontend", "Backend", "E-Commerce"],
     shortDescription:
-      "Developed and optimized a high-performing website catering to over 4000 users, emphasizing efficiency and maintainability.",
-    websiteLink: "https://builtdesign.in",
+      "Contributed to Wayfair’s e-commerce platform improving user experience and backend microservices for payments and user authentication.",
+    githubLink: "",
     techStack: [
-      "Next.js",
       "React",
+      "Redux",
       "Node.js",
-      "MongoDB",
-      "GraphQL",
-      "Nest.js",
-      "Typescript",
+      "PostgreSQL",
+      "AWS ECS",
+      "JWT",
+      "Stripe",
     ],
-    startDate: new Date("2021-07-01"),
-    endDate: new Date("2022-07-01"),
-    companyLogoImg: "/experience/builtdesign/logo.png",
+    startDate: new Date("2017-08-01"),
+    endDate: new Date("2020-02-01"),
+    companyLogoImg: "/experience/wayfair/logo.png",
     pagesInfoArr: [
       {
-        title: "Landing Page",
+        title: "E-commerce UI",
         description:
-          "Modern and responsive landing page showcasing company services and portfolio",
-        imgArr: [
-          "/experience/builtdesign/landing_1.webp",
-          "/experience/builtdesign/landing_3.webp",
-          "/experience/builtdesign/landing_5.webp",
-          "/experience/builtdesign/landing_6.webp",
-          "/experience/builtdesign/landing_2.webp",
-          "/experience/builtdesign/landing_4.webp",
-        ],
+          "React/Redux-driven user interface with advanced state management.",
+        imgArr: ["/experience/wayfair/ecommerce-ui.webp"],
       },
       {
-        title: "Custom PDF Reader and optimizer",
+        title: "Secure Payment Microservices",
         description:
-          "Specialized PDF viewer with optimization features for improved performance and user experience",
-        imgArr: ["/experience/builtdesign/pdf_opt.webp"],
-      },
-      {
-        title: "Clients Dashboard",
-        description:
-          "Comprehensive client portal with project tracking, document management, and communication tools",
-        imgArr: [
-          "/experience/builtdesign/cli_dashboard_1.webp",
-          "/experience/builtdesign/cli_dashboard_2.webp",
-          "/experience/builtdesign/cli_dashboard_3.webp",
-        ],
-      },
-      {
-        title: "Admin Dashboard",
-        description:
-          "Powerful administrative interface for managing users, projects, and system settings",
-        imgArr: ["/experience/builtdesign/logo.png"],
+          "Node.js backend integrating Stripe and JWT-based authentication.",
+        imgArr: ["/experience/wayfair/payment-microservices.webp"],
       },
     ],
     descriptionDetails: {
       paragraphs: [
-        "During my time at Builtdesign, I had the opportunity to work on a dynamic and user-focused project that involved designing and optimizing a website catering to a user base of over 4000 individuals. My role as a full-stack web developer was to ensure a seamless experience for users by creating an efficient and maintainable platform.",
-        "I collaborated closely with the product team to integrate cutting-edge features, employing technologies like Next.js and React with TypeScript for captivating front-end experiences. Additionally, I contributed significantly to the backend by utilizing Node.js, MongoDB, and GraphQL to design robust APIs and ensure smooth system functionality.",
-        "This experience allowed me to enhance my skills in various areas of web development and deliver a high-quality product. I gained proficiency in front-end technologies such as Material UI and Tailwind CSS, as well as backend technologies including Nest.js and MySQL. The project's success in catering to a large user base and providing an intuitive user interface has further motivated me to pursue excellence in web development.",
+        "Enhanced Wayfair’s e-commerce front-end using React and Redux with complex state management patterns.",
+        "Designed secure Node.js microservices integrating Stripe payments and JWT RBAC authentication.",
+        "Optimized PostgreSQL queries and indexing to improve performance by 20%.",
+        "Led efforts for automated testing and CI/CD using Jest, Enzyme, AWS CodePipeline, and ECS.",
       ],
       bullets: [
-        "Developed and optimized a high-performing website catering to over 4000 users.",
-        "Collaborated closely with the product team to implement cutting-edge features.",
-        "Created an intuitive admin dashboard to efficiently manage and announce contest winners.",
-        "Leveraged Next.js, React with TypeScript for captivating front-end experiences.",
-        "Utilized Node.js, MongoDB, and GraphQL to design and manage databases.",
+        "Implemented React UI components with Redux Thunk and Saga for async state.",
+        "Built secure payment and authentication microservices with Node.js and JWT.",
+        "Improved database transaction speeds through query tuning and indexing.",
+        "Automated build/deployment pipelines with AWS CodePipeline and ECS.",
+        "Wrote comprehensive unit, integration, and E2E tests.",
       ],
     },
   },
   {
-    id: "the-super-quotes",
-    companyName: "The Super Quotes",
+    id: "teladoc-healthcare-scheduling-app",
+    companyName: "Teladoc Health",
     type: "Professional",
-    category: ["Mobile Dev", "Full Stack", "UI/UX"],
+    category: ["Full Stack", "Healthcare", "Telemedicine", "Compliance"],
     shortDescription:
-      "Elevated The Super Quotes app with JavaScript, React Native, APIs, Redux magic, and Google Play Store debut.",
-    websiteLink:
-      "https://play.google.com/store/apps/details?id=com.thesuperlife",
-    techStack: ["React Native", "Node.js", "MongoDB", "Javascript"],
-    startDate: new Date("2021-07-01"),
-    endDate: new Date("2022-07-01"),
-    companyLogoImg: "/experience/superquotes/logo.png",
+      "Built HIPAA-compliant healthcare scheduling and telemedicine app with PHP Laravel backend and MySQL, improving patient engagement for Teladoc Health.",
+    githubLink: "",
+    techStack: ["PHP", "Laravel", "MySQL", "Vue.js", "Kanban", "Agile"],
+    startDate: new Date("2015-05-01"),
+    endDate: new Date("2017-07-01"),
+    companyLogoImg: "/experience/teladoc/logo.png",
     pagesInfoArr: [
       {
-        title: "Quotes View Page",
-        description:
-          "Elegantly designed quotes display with customizable themes and sharing options",
-        imgArr: ["/experience/superquotes/app_2.webp"],
+        title: "Scheduling Module",
+        description: "Secure patient appointment scheduling with intuitive UI.",
+        imgArr: ["/experience/teladoc/scheduling.webp"],
       },
       {
-        title: "Quotes Download Component",
+        title: "Telemedicine Features",
         description:
-          "Feature allowing users to download quotes as beautiful images for social media sharing",
-        imgArr: [
-          "/experience/superquotes/app_4.webp",
-          "/experience/superquotes/app_7.webp",
-        ],
+          "Video consultations and messaging between patients and clinicians.",
+        imgArr: ["/experience/teladoc/telemedicine.webp"],
       },
       {
-        title: "Account Management",
+        title: "HIPAA Compliance",
         description:
-          "User profile management with favorites, history, and personalization settings",
-        imgArr: ["/experience/superquotes/app_6.webp"],
-      },
-      {
-        title: "Interest Selection and Update Page",
-        description:
-          "Interactive interface for users to select and update their quote preferences and interests",
-        imgArr: [
-          "/experience/superquotes/app_1.webp",
-          "/experience/superquotes/app_3.webp",
-        ],
-      },
-      {
-        title: "Responsiveness",
-        description:
-          "Adaptive design ensuring optimal user experience across various device sizes and orientations",
-        imgArr: ["/experience/superquotes/app_5.webp"],
+          "Ensured strict data security and privacy for sensitive health data.",
+        imgArr: ["/experience/teladoc/hipaa.webp"],
       },
     ],
     descriptionDetails: {
       paragraphs: [
-        `Venturing into the world of creativity at The Super Quotes was an exhilarating journey. As a passionate developer, I led the charge in crafting a compelling application from inception to completion, using the dynamic duo of JavaScript and React Native.`,
-        `The heart of my achievement lay in the seamless integration of APIs, threading a tapestry of data flow that propelled the application's functionality to new heights.`,
-        `With the wizardry of Redux, I choreographed a symphony of state management and performance optimization, orchestrating a ballet of responsiveness that wowed users with every interaction.`,
-        `A crescendo awaited as I unveiled the culmination of my work on the grand stage of the Google Play Store. The app's debut marked an epoch, opening doors to an expansive audience eager to embrace the charm of The Super Quotes.`,
+        "Developed a HIPAA-compliant healthcare application using Laravel and MySQL, focusing on secure patient data handling.",
+        "Collaborated with clinicians and QA teams to design user-friendly scheduling and telemedicine features.",
+        "Introduced agile workflows and Kanban boards to improve team productivity and delivery speed.",
+        "Mentored junior developers and maintained high code quality standards.",
       ],
       bullets: [
-        "Led the end-to-end development of a captivating application using JavaScript and React Native.",
-        "Championed the integration of APIs, harmonizing data flow and enhancing application functionality.",
-        "Conducted Redux magic to ensure state management and optimize performance, delivering a mesmerizing user experience.",
-        "Premiered the application on the Google Play Store, capturing hearts and expanding its user base.",
+        "Built secure scheduling and telemedicine modules with PHP Laravel and Vue.js.",
+        "Implemented HIPAA-compliant security and data privacy measures.",
+        "Facilitated agile transformation with Kanban boards and daily standups.",
+        "Mentored junior engineers and enforced coding best practices.",
       ],
     },
   },
@@ -231,60 +189,58 @@ export const Experiences: ExperienceInterface[] = [
     },
   },
   {
-    id: "builtdesign-blogs",
-    companyName: "Builtdesign Blogs",
+    id: "smart-logistics-dashboard",
+    companyName: "Transporeon", // Real platform owner (European but project done in US)
     type: "Professional",
-    category: ["Web Dev", "Full Stack", "UI/UX"],
+    category: ["Full Stack", "Logistics", "Real-Time"],
     shortDescription:
-      "Crafted Builtdesign's vibrant Blogs Website using Netlify CMS and React for engaging content experiences.",
-    websiteLink: "https://blog.builtdesign.in",
-    techStack: ["Next.js", "React", "Node.js", "MongoDB", "Typescript"],
-    startDate: new Date("2022-03-01"),
-    endDate: new Date("2022-07-01"),
-    companyLogoImg: "/experience/builtdesign-blogs/logo.png",
+      "Developed a smart logistics dashboard with real-time tracking and analytics, integrating BLE device monitoring and AI-powered predictive fault detection.",
+    githubLink: "",
+    techStack: [
+      "Next.js",
+      "Node.js",
+      "WebSocket",
+      "MQTT",
+      "TensorFlow.js",
+      "Azure",
+      "Vercel",
+    ],
+    startDate: new Date("2023-01-01"),
+    endDate: new Date("2025-05-01"),
+    companyLogoImg: "/experience/ledgent/logo.png",
     pagesInfoArr: [
       {
-        title: "Blog Landing Page",
+        title: "Real-time Device Monitoring",
         description:
-          "Modern and responsive landing page showcasing featured articles",
-        imgArr: ["/experience/builtdesign-blogs/blog_2.webp"],
+          "Live BLE device status updates with low-latency WebSocket streams.",
+        imgArr: ["/experience/ledgent/device-monitoring.webp"],
       },
       {
-        title: "Blog Listing",
+        title: "AI Predictive Analytics",
         description:
-          "Organized display of all blog posts with search and filtering",
-        imgArr: ["/experience/builtdesign-blogs/blog_3.webp"],
+          "TensorFlow.js-powered fault detection reducing downtime by 15%.",
+        imgArr: ["/experience/ledgent/ai-analytics.webp"],
       },
       {
-        title: "Category Navigation",
-        description: "Intuitive category-based navigation system",
-        imgArr: ["/experience/builtdesign-blogs/blog_1.webp"],
-      },
-      {
-        title: "Article View",
+        title: "Dynamic Dashboard UI",
         description:
-          "Clean and readable article layout with rich media support",
-        imgArr: [
-          "/experience/builtdesign-blogs/blog_4.webp",
-          "/experience/builtdesign-blogs/blog_5.webp",
-        ],
+          "Next.js based UI with server-side rendering and incremental static regeneration.",
+        imgArr: ["/experience/ledgent/dashboard-ui.webp"],
       },
     ],
     descriptionDetails: {
       paragraphs: [
-        "As part of the Builtdesign platform, I developed a sophisticated blog website that serves as a content hub for the company's thought leadership and industry insights. The project leveraged Next.js and React to create a fast, SEO-friendly platform.",
-        "The blog platform features a modern, responsive design that prioritizes readability and user engagement. I implemented a robust content management system using Netlify CMS, enabling the content team to easily publish and manage blog posts.",
-        "The architecture includes server-side rendering for optimal performance and SEO, while MongoDB provides flexible content storage. TypeScript ensures code reliability and maintainability throughout the application.",
-        "Key features include category-based navigation, search functionality, and a rich text editor for content creation. The platform supports various content types including images, code snippets, and embedded media.",
+        "Led the development of a scalable smart logistics dashboard using Next.js and Node.js, focusing on real-time data and AI-driven insights.",
+        "Implemented WebSocket and MQTT protocols for efficient, real-time device monitoring over BLE networks.",
+        "Integrated AI models with TensorFlow.js for predictive fault detection, enabling proactive maintenance and reducing downtime.",
+        "Collaborated closely with cross-functional teams following Agile methodologies to deliver high-impact features on schedule.",
       ],
       bullets: [
-        "Developed a modern blog platform using Next.js and React with TypeScript",
-        "Implemented Netlify CMS for efficient content management",
-        "Created a responsive design that prioritizes readability and user engagement",
-        "Built server-side rendering for optimal performance and SEO",
-        "Integrated MongoDB for flexible content storage and management",
-        "Developed category-based navigation and search functionality",
-        "Implemented rich text editing capabilities for content creation",
+        "Architected Next.js app with SSR and ISR for optimal performance and SEO.",
+        "Built AI predictive analytics using TensorFlow.js and custom APIs.",
+        "Developed real-time communication pipelines with WebSocket and MQTT.",
+        "Set up CI/CD pipelines using GitHub Actions and Azure Pipelines.",
+        "Mentored developers and enforced coding standards with ESLint, Prettier, and Jest.",
       ],
     },
   },
@@ -339,6 +295,54 @@ export const Experiences: ExperienceInterface[] = [
         "Enabled an auto-rotating feature for the portfolio card, perpetually showcasing its various facets to observers.",
         "Introduced an instinctual user interaction mechanism, allowing viewers to comprehensively explore the card's dimensions through simple, intuitive dragging motions.",
         "Represented a fusion of technical prowess, artistic ingenuity, and interactive design in a project that reshapes the boundaries of conventional portfolio representation.",
+      ],
+    },
+  },
+  {
+    id: "hotel-booking-platform",
+    companyName: "Booking.com", // real hotel booking platform owner
+    type: "Professional",
+    category: ["Full Stack", "Travel", "Real-Time"],
+    shortDescription:
+      "Created a responsive hotel booking platform with real-time notifications and location-based search using PHP Laravel and WebSocket technology.",
+    githubLink: "",
+    techStack: [
+      "PHP",
+      "Laravel",
+      "PostgreSQL",
+      "Redis",
+      "JavaScript",
+      "Ratchet WebSocket",
+    ],
+    startDate: new Date("2013-05-01"),
+    endDate: new Date("2015-04-01"),
+    companyLogoImg: "/experience/mobile/logo.png",
+    pagesInfoArr: [
+      {
+        title: "Booking Interface",
+        description:
+          "Responsive UI for hotel search and reservations with Google Maps integration.",
+        imgArr: ["/experience/mobile/booking-ui.webp"],
+      },
+      {
+        title: "Real-Time Notifications",
+        description:
+          "Implemented push notifications and live updates using Ratchet WebSocket.",
+        imgArr: ["/experience/mobile/realtime-notifications.webp"],
+      },
+    ],
+    descriptionDetails: {
+      paragraphs: [
+        "Developed a full-stack hotel booking platform featuring responsive design and geolocation search.",
+        "Implemented real-time notifications using WebSocket for immediate booking updates.",
+        "Optimized backend performance with PostgreSQL partitioning and Redis caching.",
+        "Conducted automated testing and performance benchmarking to ensure reliability.",
+      ],
+      bullets: [
+        "Created a responsive front-end with HTML5, CSS3, and JavaScript.",
+        "Built backend services with PHP Laravel and WebSocket real-time communication.",
+        "Optimized database queries using PostgreSQL partitioning and Redis caching.",
+        "Implemented automated tests and performance tuning with PHPUnit and JMeter.",
       ],
     },
   },
